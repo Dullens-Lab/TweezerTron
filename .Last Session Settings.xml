@@ -5,7 +5,7 @@
 <Name>Variant</Name>
 <Cluster>
 <Name></Name>
-<NumElts>6</NumElts>
+<NumElts>7</NumElts>
 <Cluster>
 <Name>Value</Name>
 <NumElts>15</NumElts>
@@ -21,16 +21,16 @@
 <NumElts>2</NumElts>
 <U32>
 <Name>Pixels in X</Name>
-<Val>1024</Val>
+<Val>512</Val>
 </U32>
 <U32>
 <Name>Pixels in Y</Name>
-<Val>1024</Val>
+<Val>512</Val>
 </U32>
 </Cluster>
 <DBL>
 <Name>Field Size</Name>
-<Val>92.00000000000000</Val>
+<Val>50.00000000000000</Val>
 </DBL>
 <U8>
 <Name>Frames</Name>
@@ -42,7 +42,7 @@
 </Boolean>
 <DBL>
 <Name>Alignment</Name>
-<Val>0.00000000000000</Val>
+<Val>1.00000000000000</Val>
 </DBL>
 <Boolean>
 <Name>Scan Mode</Name>
@@ -98,11 +98,11 @@
 </Boolean>
 <DBL>
 <Name>PFOV</Name>
-<Val>121.19466666666663</Val>
+<Val>65.86666666666665</Val>
 </DBL>
 <DBL>
 <Name>MicronsPerPx</Name>
-<Val>0.11835416666667</Val>
+<Val>0.12864583333333</Val>
 </DBL>
 </Cluster>
 <Cluster>
@@ -130,16 +130,16 @@
 <NumElts>3</NumElts>
 <DBL>
 <Name>PIFOC Position (mm) [SET]</Name>
-<Val>0.00000000000000</Val>
+<Val>62.20000000000000</Val>
 </DBL>
 <DBL>
 <Name>PIFOC Position
 (um) [ACT]</Name>
-<Val>8.70000000000000E-3</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <String>
 <Name>last command</Name>
-<Val></Val>
+<Val>MOV A52.20</Val>
 </String>
 </Cluster>
 <DBL>
@@ -168,11 +168,11 @@
 <NumElts>16</NumElts>
 <String>
 <Name>Experiment Type</Name>
-<Val>2D Time Series</Val>
+<Val>3D Snapshot</Val>
 </String>
 <String>
 <Name>Experiment Name</Name>
-<Val>qwerty4</Val>
+<Val>qwerty5</Val>
 </String>
 <Path>
 <Name>ExpPath</Name>
@@ -211,7 +211,7 @@
 </DBL>
 <DBL>
 <Name>Finish</Name>
-<Val>1.00000000000000</Val>
+<Val>10.00000000000000</Val>
 </DBL>
 </Cluster>
 <I32>
@@ -221,7 +221,7 @@
 <Refnum>
 <Name>tdms ref</Name>
 <RefKind>TDMS File</RefKind>
-<Val>0x25D00000</Val>
+<Val>0x27000000</Val>
 </Refnum>
 <I64>
 <Name>frame #</Name>
@@ -233,7 +233,7 @@
 </I32>
 <I32>
 <Name>total stacks</Name>
-<Val>0</Val>
+<Val>1</Val>
 </I32>
 <I32>
 <Name>period</Name>
@@ -241,9 +241,41 @@
 </I32>
 <String>
 <Name>PI MVR Increment</Name>
-<Val></Val>
+<Val>MVR A0.10</Val>
 </String>
 </Cluster>
+<Array>
+<Name>Value</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>Spot Settings</Name>
+<NumElts>6</NumElts>
+<DBL>
+<Name>Intensity</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Vortex</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Phase</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>X</Name>
+<Val>9.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Y</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Z</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Array>
 </Cluster>
 </LvVariant>
 </LVData>
