@@ -21,16 +21,16 @@
 <NumElts>2</NumElts>
 <U32>
 <Name>Pixels in X</Name>
-<Val>512</Val>
+<Val>1024</Val>
 </U32>
 <U32>
 <Name>Pixels in Y</Name>
-<Val>512</Val>
+<Val>1024</Val>
 </U32>
 </Cluster>
 <DBL>
 <Name>Field Size</Name>
-<Val>115.00000000000000</Val>
+<Val>92.00000000000000</Val>
 </DBL>
 <U8>
 <Name>Frames</Name>
@@ -98,11 +98,11 @@
 </Boolean>
 <DBL>
 <Name>PFOV</Name>
-<Val>151.49333333333331</Val>
+<Val>121.19466666666663</Val>
 </DBL>
 <DBL>
 <Name>MicronsPerPx</Name>
-<Val>0.29588541666667</Val>
+<Val>0.11835416666667</Val>
 </DBL>
 </Cluster>
 <Cluster>
@@ -172,7 +172,7 @@
 </String>
 <String>
 <Name>Experiment Name</Name>
-<Val>qwerty1</Val>
+<Val>qwerty4</Val>
 </String>
 <Path>
 <Name>ExpPath</Name>
@@ -180,7 +180,7 @@
 </Path>
 <I32>
 <Name>TSFrames</Name>
-<Val>1000</Val>
+<Val>100</Val>
 </I32>
 <I32>
 <Name>TSfps</Name>
@@ -216,12 +216,12 @@
 </Cluster>
 <I32>
 <Name>total images</Name>
-<Val>1000</Val>
+<Val>100</Val>
 </I32>
 <Refnum>
 <Name>tdms ref</Name>
 <RefKind>TDMS File</RefKind>
-<Val>0xA7B00014</Val>
+<Val>0x25D00000</Val>
 </Refnum>
 <I64>
 <Name>frame #</Name>
@@ -229,7 +229,7 @@
 </I64>
 <I32>
 <Name>images per stack</Name>
-<Val>1000</Val>
+<Val>100</Val>
 </I32>
 <I32>
 <Name>total stacks</Name>
