@@ -1,0 +1,249 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>20.0</Version>
+<LvVariant>
+<Name>Variant</Name>
+<Cluster>
+<Name></Name>
+<NumElts>6</NumElts>
+<Cluster>
+<Name>Value</Name>
+<NumElts>15</NumElts>
+<EL>
+<Name>Channel Selection</Name>
+<Choice>A</Choice>
+<Choice>B</Choice>
+<Choice>AB</Choice>
+<Val>0</Val>
+</EL>
+<Cluster>
+<Name>Pixel Count</Name>
+<NumElts>2</NumElts>
+<U32>
+<Name>Pixels in X</Name>
+<Val>512</Val>
+</U32>
+<U32>
+<Name>Pixels in Y</Name>
+<Val>512</Val>
+</U32>
+</Cluster>
+<DBL>
+<Name>Field Size</Name>
+<Val>115.00000000000000</Val>
+</DBL>
+<U8>
+<Name>Frames</Name>
+<Val>2</Val>
+</U8>
+<Boolean>
+<Name>Averaging</Name>
+<Val>0</Val>
+</Boolean>
+<DBL>
+<Name>Alignment</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Scan Mode</Name>
+<Val>1</Val>
+</Boolean>
+<Cluster>
+<Name>Gain</Name>
+<NumElts>2</NumElts>
+<U8>
+<Name>Gain A</Name>
+<Val>1</Val>
+</U8>
+<U8>
+<Name>Gain B</Name>
+<Val>1</Val>
+</U8>
+</Cluster>
+<Cluster>
+<Name>Enable PMTs</Name>
+<NumElts>2</NumElts>
+<Boolean>
+<Name>A</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>B</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Voltage Range</Name>
+<NumElts>2</NumElts>
+<U16>
+<Name>Range A</Name>
+<Val>10</Val>
+</U16>
+<U16>
+<Name>Range B</Name>
+<Val>10</Val>
+</U16>
+</Cluster>
+<DBL>
+<Name>Multi Frame Count</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Trigger Mode</Name>
+<Val>2.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Real Time Averaging</Name>
+<Val>1</Val>
+</Boolean>
+<DBL>
+<Name>PFOV</Name>
+<Val>151.49333333333331</Val>
+</DBL>
+<DBL>
+<Name>MicronsPerPx</Name>
+<Val>0.29588541666667</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Value</Name>
+<NumElts>4</NumElts>
+<DBL>
+<Name>Power 561</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Power 488</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Global Shutter</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>561 Shutter</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Value</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>PIFOC Position (mm) [SET]</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>PIFOC Position
+(um) [ACT]</Name>
+<Val>8.70000000000000E-3</Val>
+</DBL>
+<String>
+<Name>last command</Name>
+<Val></Val>
+</String>
+</Cluster>
+<DBL>
+<Name>Value</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Cluster>
+<Name>Value</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>Manlight Power</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Open Serial</Name>
+<Val>1</Val>
+</Boolean>
+<Refnum>
+<Name>VISA Refnum</Name>
+<RefKind>VISA</RefKind>
+<Val>ASRL5::INSTR</Val>
+</Refnum>
+</Cluster>
+<Cluster>
+<Name>Value</Name>
+<NumElts>16</NumElts>
+<String>
+<Name>Experiment Type</Name>
+<Val>2D Time Series</Val>
+</String>
+<String>
+<Name>Experiment Name</Name>
+<Val>qwerty1</Val>
+</String>
+<Path>
+<Name>ExpPath</Name>
+<Val>D:\Data\test</Val>
+</Path>
+<I32>
+<Name>TSFrames</Name>
+<Val>1000</Val>
+</I32>
+<I32>
+<Name>TSfps</Name>
+<Val>1000</Val>
+</I32>
+<I32>
+<Name>ZTSFrames</Name>
+<Val>1000</Val>
+</I32>
+<I32>
+<Name>ZTSdt</Name>
+<Val>1</Val>
+</I32>
+<Boolean>
+<Name>Streaming</Name>
+<Val>1</Val>
+</Boolean>
+<Cluster>
+<Name>Z Stack Settings</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>Start</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Step Size</Name>
+<Val>0.10000000000000</Val>
+</DBL>
+<DBL>
+<Name>Finish</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+</Cluster>
+<I32>
+<Name>total images</Name>
+<Val>1000</Val>
+</I32>
+<Refnum>
+<Name>tdms ref</Name>
+<RefKind>TDMS File</RefKind>
+<Val>0xA7B00014</Val>
+</Refnum>
+<I64>
+<Name>frame #</Name>
+<Val>0</Val>
+</I64>
+<I32>
+<Name>images per stack</Name>
+<Val>1000</Val>
+</I32>
+<I32>
+<Name>total stacks</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>period</Name>
+<Val>1</Val>
+</I32>
+<String>
+<Name>PI MVR Increment</Name>
+<Val></Val>
+</String>
+</Cluster>
+</Cluster>
+</LvVariant>
+</LVData>
