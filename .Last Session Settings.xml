@@ -21,16 +21,16 @@
 <NumElts>2</NumElts>
 <U32>
 <Name>Pixels in X</Name>
-<Val>512</Val>
+<Val>64</Val>
 </U32>
 <U32>
 <Name>Pixels in Y</Name>
-<Val>512</Val>
+<Val>64</Val>
 </U32>
 </Cluster>
 <DBL>
 <Name>Field Size</Name>
-<Val>50.00000000000000</Val>
+<Val>5.00000000000000</Val>
 </DBL>
 <U8>
 <Name>Frames</Name>
@@ -98,11 +98,11 @@
 </Boolean>
 <DBL>
 <Name>PFOV</Name>
-<Val>65.86666666666665</Val>
+<Val>6.58666666666667</Val>
 </DBL>
 <DBL>
 <Name>MicronsPerPx</Name>
-<Val>0.12864583333333</Val>
+<Val>0.10291666666667</Val>
 </DBL>
 </Cluster>
 <Cluster>
@@ -110,11 +110,11 @@
 <NumElts>4</NumElts>
 <DBL>
 <Name>Power 561</Name>
-<Val>0.00000000000000</Val>
+<Val>12.50000000000000</Val>
 </DBL>
 <DBL>
 <Name>Power 488</Name>
-<Val>0.00000000000000</Val>
+<Val>90.80000000000000</Val>
 </DBL>
 <Boolean>
 <Name>Global Shutter</Name>
@@ -130,16 +130,16 @@
 <NumElts>3</NumElts>
 <DBL>
 <Name>PIFOC Position (mm) [SET]</Name>
-<Val>62.20000000000000</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>PIFOC Position
 (um) [ACT]</Name>
-<Val>0.00000000000000</Val>
+<Val>8.70000000000000E-3</Val>
 </DBL>
 <String>
 <Name>last command</Name>
-<Val>MOV A52.20</Val>
+<Val></Val>
 </String>
 </Cluster>
 <DBL>
@@ -168,11 +168,11 @@
 <NumElts>16</NumElts>
 <String>
 <Name>Experiment Type</Name>
-<Val>3D Snapshot</Val>
+<Val>2D Time Series</Val>
 </String>
 <String>
 <Name>Experiment Name</Name>
-<Val>qwerty5</Val>
+<Val>qwerty1</Val>
 </String>
 <Path>
 <Name>ExpPath</Name>
@@ -180,7 +180,7 @@
 </Path>
 <I32>
 <Name>TSFrames</Name>
-<Val>100</Val>
+<Val>8000</Val>
 </I32>
 <I32>
 <Name>TSfps</Name>
@@ -216,12 +216,12 @@
 </Cluster>
 <I32>
 <Name>total images</Name>
-<Val>100</Val>
+<Val>8000</Val>
 </I32>
 <Refnum>
 <Name>tdms ref</Name>
 <RefKind>TDMS File</RefKind>
-<Val>0x27000000</Val>
+<Val>0x29900001</Val>
 </Refnum>
 <I64>
 <Name>frame #</Name>
@@ -229,11 +229,11 @@
 </I64>
 <I32>
 <Name>images per stack</Name>
-<Val>100</Val>
+<Val>8000</Val>
 </I32>
 <I32>
 <Name>total stacks</Name>
-<Val>1</Val>
+<Val>0</Val>
 </I32>
 <I32>
 <Name>period</Name>
@@ -241,7 +241,7 @@
 </I32>
 <String>
 <Name>PI MVR Increment</Name>
-<Val>MVR A0.10</Val>
+<Val></Val>
 </String>
 </Cluster>
 <Array>

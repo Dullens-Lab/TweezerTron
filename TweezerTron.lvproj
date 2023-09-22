@@ -29,13 +29,17 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Calculate dts from Timestamps.vi" Type="VI" URL="../Tools/Calculate dts from Timestamps.vi"/>
+		<Item Name="Closing Sequence For Review.vi" Type="VI" URL="../Review/Closing Sequence For Review.vi"/>
 		<Item Name="Convert Channel Selection To String.vi" Type="VI" URL="../Tools/Convert Channel Selection To String.vi"/>
 		<Item Name="Convert pData to TIFF.vi" Type="VI" URL="../Tools/Convert pData to TIFF.vi"/>
+		<Item Name="Create IMAQ Img from Channels.vi" Type="VI" URL="../Tools/Create IMAQ Img from Channels.vi"/>
 		<Item Name="Create TIFFs Folder.vi" Type="VI" URL="../Tools/Create TIFFs Folder.vi"/>
 		<Item Name="Get Frame from TDMS.vi" Type="VI" URL="../Tools/Get Frame from TDMS.vi"/>
 		<Item Name="Get SettingsXML from Path.vi" Type="VI" URL="../Tools/Get SettingsXML from Path.vi"/>
+		<Item Name="Prepare Data for Review.vi" Type="VI" URL="../Review/Prepare Data for Review.vi"/>
 		<Item Name="Read Frame From TDMS.vi" Type="VI" URL="../Review/Read Frame From TDMS.vi"/>
 		<Item Name="Read in last_sessionXML.vi" Type="VI" URL="../Tools/Read in last_sessionXML.vi"/>
+		<Item Name="Select Review Frame.vi" Type="VI" URL="../Review/Select Review Frame.vi"/>
 		<Item Name="ThorConfocalSettings.xml" Type="Document" URL="../ThorConfocalSettings.xml"/>
 		<Item Name="ThorECUSettings.xml" Type="Document" URL="../ThorECUSettings.xml"/>
 		<Item Name="ThorElectroPhysSettings.xml" Type="Document" URL="../ThorElectroPhysSettings.xml"/>
@@ -245,6 +249,7 @@
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
 			</Item>
 			<Item Name="Calculate Imaging Frame Rate.vi" Type="VI" URL="../Tools/Calculate Imaging Frame Rate.vi"/>
+			<Item Name="Closing Sequence For Export TIFFs.vi" Type="VI" URL="../Review/Closing Sequence For Export TIFFs.vi"/>
 			<Item Name="Compare Old and New LSM.vi" Type="VI" URL="../Tools/Compare Old and New LSM.vi"/>
 			<Item Name="Get Kernel Time.vi" Type="VI" URL="../Tools/Get Kernel Time.vi"/>
 			<Item Name="Initialise Notifiers and Ques.vi" Type="VI" URL="../Tools/Initialise Notifiers and Ques.vi"/>
