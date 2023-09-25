@@ -21,16 +21,16 @@
 <NumElts>2</NumElts>
 <U32>
 <Name>Pixels in X</Name>
-<Val>64</Val>
+<Val>128</Val>
 </U32>
 <U32>
 <Name>Pixels in Y</Name>
-<Val>64</Val>
+<Val>128</Val>
 </U32>
 </Cluster>
 <DBL>
 <Name>Field Size</Name>
-<Val>5.00000000000000</Val>
+<Val>37.65182186234817</Val>
 </DBL>
 <U8>
 <Name>Frames</Name>
@@ -42,7 +42,7 @@
 </Boolean>
 <DBL>
 <Name>Alignment</Name>
-<Val>1.00000000000000</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <Boolean>
 <Name>Scan Mode</Name>
@@ -98,23 +98,23 @@
 </Boolean>
 <DBL>
 <Name>PFOV</Name>
-<Val>6.58666666666667</Val>
+<Val>49.59999999999998</Val>
 </DBL>
 <DBL>
 <Name>MicronsPerPx</Name>
-<Val>0.10291666666667</Val>
+<Val>0.38750000000000</Val>
 </DBL>
 </Cluster>
 <Cluster>
 <Name>Value</Name>
 <NumElts>4</NumElts>
 <DBL>
-<Name>Power 561</Name>
+<Name>561</Name>
 <Val>12.50000000000000</Val>
 </DBL>
 <DBL>
-<Name>Power 488</Name>
-<Val>90.80000000000000</Val>
+<Name>488</Name>
+<Val>30.00000000000000</Val>
 </DBL>
 <Boolean>
 <Name>Global Shutter</Name>
@@ -144,7 +144,7 @@
 </Cluster>
 <DBL>
 <Name>Value</Name>
-<Val>0.00000000000000</Val>
+<Val>6.00000000000000</Val>
 </DBL>
 <Cluster>
 <Name>Value</Name>
@@ -221,7 +221,7 @@
 <Refnum>
 <Name>tdms ref</Name>
 <RefKind>TDMS File</RefKind>
-<Val>0x29900001</Val>
+<Val>0x59200000</Val>
 </Refnum>
 <I64>
 <Name>frame #</Name>
@@ -246,7 +246,7 @@
 </Cluster>
 <Array>
 <Name>Value</Name>
-<Dimsize>1</Dimsize>
+<Dimsize>2</Dimsize>
 <Cluster>
 <Name>Spot Settings</Name>
 <NumElts>6</NumElts>
@@ -264,11 +264,39 @@
 </DBL>
 <DBL>
 <Name>X</Name>
-<Val>9.00000000000000</Val>
+<Val>10.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
 <Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Z</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Spot Settings</Name>
+<NumElts>6</NumElts>
+<DBL>
+<Name>Intensity</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Vortex</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Phase</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>X</Name>
+<Val>20.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Y</Name>
+<Val>10.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Z</Name>
