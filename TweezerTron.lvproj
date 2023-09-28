@@ -40,14 +40,13 @@
 		<Item Name="Read Frame From TDMS.vi" Type="VI" URL="../Review/Read Frame From TDMS.vi"/>
 		<Item Name="Read in last_sessionXML.vi" Type="VI" URL="../Tools/Read in last_sessionXML.vi"/>
 		<Item Name="Select Review Frame.vi" Type="VI" URL="../Review/Select Review Frame.vi"/>
-		<Item Name="ThorConfocalSettings.xml" Type="Document" URL="../ThorConfocalSettings.xml"/>
 		<Item Name="ThorECUSettings.xml" Type="Document" URL="../ThorECUSettings.xml"/>
 		<Item Name="ThorElectroPhysSettings.xml" Type="Document" URL="../ThorElectroPhysSettings.xml"/>
 		<Item Name="ThorMCLSSettings.xml" Type="Document" URL="../ThorMCLSSettings.xml"/>
-		<Item Name="ThorPinholeStepperSettings.xml" Type="Document" URL="../ThorPinholeStepperSettings.xml"/>
 		<Item Name="ThorShutterDigSettings.xml" Type="Document" URL="../ThorShutterDigSettings.xml"/>
 		<Item Name="TweezerTron.vi" Type="VI" URL="../TweezerTron.vi"/>
 		<Item Name="Update Exp Auisitions.vi" Type="VI" URL="../Tools/Update Exp Auisitions.vi"/>
+		<Item Name="XY to BoundingBox for Drawing Spots.vi" Type="VI" URL="../Tools/XY to BoundingBox for Drawing Spots.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>

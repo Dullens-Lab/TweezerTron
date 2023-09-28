@@ -21,16 +21,16 @@
 <NumElts>2</NumElts>
 <U32>
 <Name>Pixels in X</Name>
-<Val>128</Val>
+<Val>512</Val>
 </U32>
 <U32>
 <Name>Pixels in Y</Name>
-<Val>128</Val>
+<Val>512</Val>
 </U32>
 </Cluster>
 <DBL>
 <Name>Field Size</Name>
-<Val>37.65182186234817</Val>
+<Val>90.00000000000000</Val>
 </DBL>
 <U8>
 <Name>Frames</Name>
@@ -98,11 +98,11 @@
 </Boolean>
 <DBL>
 <Name>PFOV</Name>
-<Val>49.59999999999998</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>MicronsPerPx</Name>
-<Val>0.38750000000000</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 </Cluster>
 <Cluster>
@@ -110,11 +110,11 @@
 <NumElts>4</NumElts>
 <DBL>
 <Name>561</Name>
-<Val>12.50000000000000</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>488</Name>
-<Val>30.00000000000000</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <Boolean>
 <Name>Global Shutter</Name>
@@ -144,7 +144,7 @@
 </Cluster>
 <DBL>
 <Name>Value</Name>
-<Val>6.00000000000000</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <Cluster>
 <Name>Value</Name>
@@ -246,7 +246,7 @@
 </Cluster>
 <Array>
 <Name>Value</Name>
-<Dimsize>2</Dimsize>
+<Dimsize>1</Dimsize>
 <Cluster>
 <Name>Spot Settings</Name>
 <NumElts>6</NumElts>
@@ -264,39 +264,11 @@
 </DBL>
 <DBL>
 <Name>X</Name>
-<Val>10.00000000000000</Val>
+<Val>7.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
 <Val>0.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>Z</Name>
-<Val>0.00000000000000</Val>
-</DBL>
-</Cluster>
-<Cluster>
-<Name>Spot Settings</Name>
-<NumElts>6</NumElts>
-<DBL>
-<Name>Intensity</Name>
-<Val>0.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>Vortex</Name>
-<Val>0.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>Phase</Name>
-<Val>0.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>X</Name>
-<Val>20.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>Y</Name>
-<Val>10.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Z</Name>
