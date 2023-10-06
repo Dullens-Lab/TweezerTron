@@ -14,7 +14,7 @@
 <Choice>A</Choice>
 <Choice>B</Choice>
 <Choice>AB</Choice>
-<Val>0</Val>
+<Val>2</Val>
 </EL>
 <Cluster>
 <Name>Pixel Count</Name>
@@ -30,7 +30,7 @@
 </Cluster>
 <DBL>
 <Name>Field Size</Name>
-<Val>90.00000000000000</Val>
+<Val>22.54554655870450</Val>
 </DBL>
 <U8>
 <Name>Frames</Name>
@@ -38,7 +38,7 @@
 </U8>
 <Boolean>
 <Name>Averaging</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <DBL>
 <Name>Alignment</Name>
@@ -57,7 +57,7 @@
 </U8>
 <U8>
 <Name>Gain B</Name>
-<Val>1</Val>
+<Val>16</Val>
 </U8>
 </Cluster>
 <Cluster>
@@ -97,12 +97,12 @@
 <Val>1</Val>
 </Boolean>
 <DBL>
-<Name>PFOV</Name>
-<Val>0.00000000000000</Val>
+<Name>Field Size in um</Name>
+<Val>29.70000000000005</Val>
 </DBL>
 <DBL>
 <Name>MicronsPerPx</Name>
-<Val>0.00000000000000</Val>
+<Val>5.80078125000001E-2</Val>
 </DBL>
 </Cluster>
 <Cluster>
@@ -110,11 +110,11 @@
 <NumElts>4</NumElts>
 <DBL>
 <Name>561</Name>
-<Val>0.00000000000000</Val>
+<Val>12.50000000000000</Val>
 </DBL>
 <DBL>
 <Name>488</Name>
-<Val>0.00000000000000</Val>
+<Val>30.00000000000000</Val>
 </DBL>
 <Boolean>
 <Name>Global Shutter</Name>
@@ -135,11 +135,11 @@
 <DBL>
 <Name>PIFOC Position
 (um) [ACT]</Name>
-<Val>8.70000000000000E-3</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <String>
 <Name>last command</Name>
-<Val></Val>
+<Val>MOV A-10.00</Val>
 </String>
 </Cluster>
 <DBL>
@@ -168,19 +168,19 @@
 <NumElts>16</NumElts>
 <String>
 <Name>Experiment Type</Name>
-<Val>2D Time Series</Val>
+<Val>2D Snapshot</Val>
 </String>
 <String>
 <Name>Experiment Name</Name>
-<Val>qwerty1</Val>
+<Val>Experiment name</Val>
 </String>
 <Path>
 <Name>ExpPath</Name>
-<Val>D:\Data\test</Val>
+<Val>D:\Data</Val>
 </Path>
 <I32>
 <Name>TSFrames</Name>
-<Val>8000</Val>
+<Val>100</Val>
 </I32>
 <I32>
 <Name>TSfps</Name>
@@ -211,17 +211,17 @@
 </DBL>
 <DBL>
 <Name>Finish</Name>
-<Val>10.00000000000000</Val>
+<Val>1.00000000000000</Val>
 </DBL>
 </Cluster>
 <I32>
 <Name>total images</Name>
-<Val>8000</Val>
+<Val>1</Val>
 </I32>
 <Refnum>
 <Name>tdms ref</Name>
 <RefKind>TDMS File</RefKind>
-<Val>0x59200000</Val>
+<Val>0x00000000</Val>
 </Refnum>
 <I64>
 <Name>frame #</Name>
@@ -229,7 +229,7 @@
 </I64>
 <I32>
 <Name>images per stack</Name>
-<Val>8000</Val>
+<Val>1</Val>
 </I32>
 <I32>
 <Name>total stacks</Name>
@@ -244,9 +244,14 @@
 <Val></Val>
 </String>
 </Cluster>
-<Array>
+<LvVariant>
 <Name>Value</Name>
-<Dimsize>1</Dimsize>
+<Cluster>
+<Name>Optical Traps</Name>
+<NumElts>7</NumElts>
+<Array>
+<Name>Spot Params</Name>
+<Dimsize>2</Dimsize>
 <Cluster>
 <Name>Spot Settings</Name>
 <NumElts>6</NumElts>
@@ -264,11 +269,39 @@
 </DBL>
 <DBL>
 <Name>X</Name>
-<Val>7.00000000000000</Val>
+<Val>-17.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
+<Val>-8.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Z</Name>
 <Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Spot Settings</Name>
+<NumElts>6</NumElts>
+<DBL>
+<Name>Intensity</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Vortex</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Phase</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>X</Name>
+<Val>-7.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Y</Name>
+<Val>-8.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Z</Name>
@@ -276,6 +309,32 @@
 </DBL>
 </Cluster>
 </Array>
+<Boolean>
+<Name>Add Spot</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Remove Spot</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Clear All Spots</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Save Spots</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Generate Spots</Name>
+<Val>0</Val>
+</Boolean>
+<String>
+<Name>Generate Spot Pattern</Name>
+<Val></Val>
+</String>
+</Cluster>
+</LvVariant>
 </Cluster>
 </LvVariant>
 </LVData>
