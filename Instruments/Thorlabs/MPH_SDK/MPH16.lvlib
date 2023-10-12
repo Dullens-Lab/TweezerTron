@@ -14,6 +14,4 @@
 	<Item Name="Start Position.vi" Type="VI" URL="../VIs/Start Position.vi"/>
 	<Item Name="Status Position.vi" Type="VI" URL="../VIs/Status Position.vi"/>
 	<Item Name="Teardown Device.vi" Type="VI" URL="../VIs/Teardown Device.vi"/>
-	<Item Name="ThorPinholeStepper.dll" Type="Document" URL="../ThorPinholeStepper.dll"/>
-	<Item Name="ThorPinholeStepperSettings.xml" Type="Document" URL="../VIs/ThorPinholeStepperSettings.xml"/>
 </Library>

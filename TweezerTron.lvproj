@@ -269,6 +269,9 @@
 			<Item Name="pDataBufferToRGBimage.vi" Type="VI" URL="../Tools/pDataBufferToRGBimage.vi"/>
 			<Item Name="Read in TDMS.vi" Type="VI" URL="../Review/Read in TDMS.vi"/>
 			<Item Name="Scale pDataBuffer.vi" Type="VI" URL="../Tools/Scale pDataBuffer.vi"/>
+			<Item Name="ThorConfocal.dll" Type="Document" URL="../ThorConfocal.dll"/>
+			<Item Name="ThorECU.dll" Type="Document" URL="../ThorECU.dll"/>
+			<Item Name="ThorPinholeStepper.dll" Type="Document" URL="../ThorPinholeStepper.dll"/>
 			<Item Name="Write Settings XML.vi" Type="VI" URL="../Tools/Write Settings XML.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>

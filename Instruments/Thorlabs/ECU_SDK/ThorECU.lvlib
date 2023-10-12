@@ -14,6 +14,4 @@
 	<Item Name="Start Position.vi" Type="VI" URL="../VIs/Start Position.vi"/>
 	<Item Name="Status Position.vi" Type="VI" URL="../VIs/Status Position.vi"/>
 	<Item Name="Teardown Device.vi" Type="VI" URL="../VIs/Teardown Device.vi"/>
-	<Item Name="ThorECU.dll" Type="Document" URL="../ThorECU.dll"/>
-	<Item Name="ThorECUSettings.xml" Type="Document" URL="../VIs/ThorECUSettings.xml"/>
 </Library>
