@@ -40,9 +40,12 @@
 		<Item Name="Read Frame From TDMS.vi" Type="VI" URL="../Review/Read Frame From TDMS.vi"/>
 		<Item Name="Read in last_sessionXML.vi" Type="VI" URL="../Tools/Read in last_sessionXML.vi"/>
 		<Item Name="Select Review Frame.vi" Type="VI" URL="../Review/Select Review Frame.vi"/>
+		<Item Name="ThorConfocal.dll" Type="Document" URL="../ThorConfocal.dll"/>
+		<Item Name="ThorECU.dll" Type="Document" URL="../ThorECU.dll"/>
 		<Item Name="ThorECUSettings.xml" Type="Document" URL="../ThorECUSettings.xml"/>
 		<Item Name="ThorElectroPhysSettings.xml" Type="Document" URL="../ThorElectroPhysSettings.xml"/>
 		<Item Name="ThorMCLSSettings.xml" Type="Document" URL="../ThorMCLSSettings.xml"/>
+		<Item Name="ThorPinholeStepper.dll" Type="Document" URL="../ThorPinholeStepper.dll"/>
 		<Item Name="ThorShutterDigSettings.xml" Type="Document" URL="../ThorShutterDigSettings.xml"/>
 		<Item Name="TweezerTron.vi" Type="VI" URL="../TweezerTron.vi"/>
 		<Item Name="Update Exp Auisitions.vi" Type="VI" URL="../Tools/Update Exp Auisitions.vi"/>
@@ -269,9 +272,6 @@
 			<Item Name="pDataBufferToRGBimage.vi" Type="VI" URL="../Tools/pDataBufferToRGBimage.vi"/>
 			<Item Name="Read in TDMS.vi" Type="VI" URL="../Review/Read in TDMS.vi"/>
 			<Item Name="Scale pDataBuffer.vi" Type="VI" URL="../Tools/Scale pDataBuffer.vi"/>
-			<Item Name="ThorConfocal.dll" Type="Document" URL="../ThorConfocal.dll"/>
-			<Item Name="ThorECU.dll" Type="Document" URL="../ThorECU.dll"/>
-			<Item Name="ThorPinholeStepper.dll" Type="Document" URL="../ThorPinholeStepper.dll"/>
 			<Item Name="Write Settings XML.vi" Type="VI" URL="../Tools/Write Settings XML.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
