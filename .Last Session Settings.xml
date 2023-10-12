@@ -30,7 +30,7 @@
 </Cluster>
 <DBL>
 <Name>Field Size</Name>
-<Val>22.54554655870450</Val>
+<Val>99.00000000000000</Val>
 </DBL>
 <U8>
 <Name>Frames</Name>
@@ -57,7 +57,7 @@
 </U8>
 <U8>
 <Name>Gain B</Name>
-<Val>16</Val>
+<Val>1</Val>
 </U8>
 </Cluster>
 <Cluster>
@@ -98,11 +98,11 @@
 </Boolean>
 <DBL>
 <Name>Field Size in um</Name>
-<Val>29.70000000000005</Val>
+<Val>130.41599999999997</Val>
 </DBL>
 <DBL>
 <Name>MicronsPerPx</Name>
-<Val>5.80078125000001E-2</Val>
+<Val>0.25471875000000</Val>
 </DBL>
 </Cluster>
 <Cluster>
