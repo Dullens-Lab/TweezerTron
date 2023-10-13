@@ -17,4 +17,5 @@
 	<Item Name="Status Acquisition Ex.vi" Type="VI" URL="../VIs/Status Acquisition Ex.vi"/>
 	<Item Name="Status Acquisition.vi" Type="VI" URL="../VIs/Status Acquisition.vi"/>
 	<Item Name="Teardown Camera.vi" Type="VI" URL="../VIs/Teardown Camera.vi"/>
+	<Item Name="ThorConfocalSettings.xml" Type="Document" URL="../VIs/ThorConfocalSettings.xml"/>
 </Library>

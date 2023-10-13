@@ -28,6 +28,8 @@
 		<Item Name="Logging" Type="Folder" URL="../Logging">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="AlignData.txt" Type="Document" URL="../AlignData.txt"/>
+		<Item Name="AlignDataCoarse.txt" Type="Document" URL="../AlignDataCoarse.txt"/>
 		<Item Name="Calculate dts from Timestamps.vi" Type="VI" URL="../Tools/Calculate dts from Timestamps.vi"/>
 		<Item Name="Closing Sequence For Review.vi" Type="VI" URL="../Review/Closing Sequence For Review.vi"/>
 		<Item Name="Convert Channel Selection To String.vi" Type="VI" URL="../Tools/Convert Channel Selection To String.vi"/>
@@ -50,6 +52,7 @@
 		<Item Name="TweezerTron.vi" Type="VI" URL="../TweezerTron.vi"/>
 		<Item Name="Update Exp Auisitions.vi" Type="VI" URL="../Tools/Update Exp Auisitions.vi"/>
 		<Item Name="XY to BoundingBox for Drawing Spots.vi" Type="VI" URL="../Tools/XY to BoundingBox for Drawing Spots.vi"/>
+		<Item Name="ZoomData.txt" Type="Document" URL="../ZoomData.txt"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -235,6 +238,7 @@
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="sub Dynamic To Waveform Array.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/miscellaneous.llb/sub Dynamic To Waveform Array.vi"/>
 				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
+				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>

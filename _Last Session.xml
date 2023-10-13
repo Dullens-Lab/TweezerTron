@@ -5,7 +5,30 @@
 <Name>Variant</Name>
 <Cluster>
 <Name></Name>
-<NumElts>7</NumElts>
+<NumElts>8</NumElts>
+<Timestamp>
+<Name>seconds since 1Jan1904</Name>
+<Cluster>
+<Name></Name>
+<NumElts>4</NumElts>
+<I32>
+<Name></Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name></Name>
+<Val>-628367360</Val>
+</I32>
+<I32>
+<Name></Name>
+<Val>-514909093</Val>
+</I32>
+<I32>
+<Name></Name>
+<Val>0</Val>
+</I32>
+</Cluster>
+</Timestamp>
 <Cluster>
 <Name>Value</Name>
 <NumElts>15</NumElts>
@@ -14,23 +37,23 @@
 <Choice>A</Choice>
 <Choice>B</Choice>
 <Choice>AB</Choice>
-<Val>2</Val>
+<Val>0</Val>
 </EL>
 <Cluster>
 <Name>Pixel Count</Name>
 <NumElts>2</NumElts>
 <U32>
 <Name>Pixels in X</Name>
-<Val>512</Val>
+<Val>128</Val>
 </U32>
 <U32>
 <Name>Pixels in Y</Name>
-<Val>512</Val>
+<Val>128</Val>
 </U32>
 </Cluster>
 <DBL>
 <Name>Field Size</Name>
-<Val>63.00000000000000</Val>
+<Val>17.53542510121458</Val>
 </DBL>
 <U8>
 <Name>Frames</Name>
@@ -42,7 +65,7 @@
 </Boolean>
 <DBL>
 <Name>Alignment</Name>
-<Val>0.00000000000000</Val>
+<Val>1.00000000000000</Val>
 </DBL>
 <Boolean>
 <Name>Scan Mode</Name>
@@ -69,7 +92,7 @@
 </Boolean>
 <Boolean>
 <Name>B</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 </Cluster>
 <Cluster>
@@ -98,11 +121,11 @@
 </Boolean>
 <DBL>
 <Name>Field Size in um</Name>
-<Val>82.99199999999998</Val>
+<Val>23.10000000000000</Val>
 </DBL>
 <DBL>
 <Name>MicronsPerPx</Name>
-<Val>0.16209375000000</Val>
+<Val>0.18046875000000</Val>
 </DBL>
 </Cluster>
 <Cluster>
@@ -110,7 +133,7 @@
 <NumElts>4</NumElts>
 <DBL>
 <Name>561</Name>
-<Val>21.00000000000000</Val>
+<Val>12.50000000000000</Val>
 </DBL>
 <DBL>
 <Name>488</Name>
@@ -139,7 +162,7 @@
 </DBL>
 <String>
 <Name>last command</Name>
-<Val>MOV A-10.00</Val>
+<Val></Val>
 </String>
 </Cluster>
 <DBL>
@@ -168,19 +191,19 @@
 <NumElts>16</NumElts>
 <String>
 <Name>Experiment Type</Name>
-<Val>2D Snapshot</Val>
+<Val>2D Time Series</Val>
 </String>
 <String>
 <Name>Experiment Name</Name>
-<Val>Experiment name</Val>
+<Val>OCULI test</Val>
 </String>
 <Path>
 <Name>ExpPath</Name>
-<Val>D:\Data</Val>
+<Val>D:\Data\OCULI Trap Test</Val>
 </Path>
 <I32>
 <Name>TSFrames</Name>
-<Val>100</Val>
+<Val>10000</Val>
 </I32>
 <I32>
 <Name>TSfps</Name>
@@ -216,12 +239,12 @@
 </Cluster>
 <I32>
 <Name>total images</Name>
-<Val>1</Val>
+<Val>10000</Val>
 </I32>
 <Refnum>
 <Name>tdms ref</Name>
 <RefKind>TDMS File</RefKind>
-<Val>0x00000000</Val>
+<Val>0x11800000</Val>
 </Refnum>
 <I64>
 <Name>frame #</Name>
@@ -229,7 +252,7 @@
 </I64>
 <I32>
 <Name>images per stack</Name>
-<Val>1</Val>
+<Val>10000</Val>
 </I32>
 <I32>
 <Name>total stacks</Name>
@@ -248,10 +271,10 @@
 <Name>Value</Name>
 <Cluster>
 <Name>Optical Traps</Name>
-<NumElts>7</NumElts>
+<NumElts>8</NumElts>
 <Array>
 <Name>Spot Params</Name>
-<Dimsize>2</Dimsize>
+<Dimsize>1</Dimsize>
 <Cluster>
 <Name>Spot Settings</Name>
 <NumElts>6</NumElts>
@@ -261,7 +284,7 @@
 </DBL>
 <DBL>
 <Name>Vortex</Name>
-<Val>0.00000000000000</Val>
+<Val>18.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Phase</Name>
@@ -269,39 +292,11 @@
 </DBL>
 <DBL>
 <Name>X</Name>
-<Val>-17.00000000000000</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
-<Val>-8.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>Z</Name>
 <Val>0.00000000000000</Val>
-</DBL>
-</Cluster>
-<Cluster>
-<Name>Spot Settings</Name>
-<NumElts>6</NumElts>
-<DBL>
-<Name>Intensity</Name>
-<Val>1.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>Vortex</Name>
-<Val>0.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>Phase</Name>
-<Val>0.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>X</Name>
-<Val>-7.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>Y</Name>
-<Val>-8.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Z</Name>
@@ -330,9 +325,13 @@
 <Val>0</Val>
 </Boolean>
 <String>
-<Name>Generate Spot Pattern</Name>
-<Val></Val>
+<Name>Generate Pattern</Name>
+<Val>Grid 9 x 9</Val>
 </String>
+<Boolean>
+<Name>load spots</Name>
+<Val>0</Val>
+</Boolean>
 </Cluster>
 </LvVariant>
 </Cluster>
