@@ -38,6 +38,7 @@
 		<Item Name="Create TIFFs Folder.vi" Type="VI" URL="../Tools/Create TIFFs Folder.vi"/>
 		<Item Name="Get Frame from TDMS.vi" Type="VI" URL="../Tools/Get Frame from TDMS.vi"/>
 		<Item Name="Get SettingsXML from Path.vi" Type="VI" URL="../Tools/Get SettingsXML from Path.vi"/>
+		<Item Name="pDataBufferToRGBimage.vi" Type="VI" URL="../Tools/pDataBufferToRGBimage.vi"/>
 		<Item Name="Prepare Data for Review.vi" Type="VI" URL="../Review/Prepare Data for Review.vi"/>
 		<Item Name="Read Frame From TDMS.vi" Type="VI" URL="../Review/Read Frame From TDMS.vi"/>
 		<Item Name="Read in last_sessionXML.vi" Type="VI" URL="../Tools/Read in last_sessionXML.vi"/>
@@ -273,9 +274,9 @@
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="pDataBufferToRGBimage.vi" Type="VI" URL="../Tools/pDataBufferToRGBimage.vi"/>
 			<Item Name="Read in TDMS.vi" Type="VI" URL="../Review/Read in TDMS.vi"/>
 			<Item Name="Scale pDataBuffer.vi" Type="VI" URL="../Tools/Scale pDataBuffer.vi"/>
+			<Item Name="ThorConfocal.dll" Type="Document" URL="/C/Program Files/Thorlabs/ThorImageLS 4.1/Modules_Native/ThorConfocal.dll"/>
 			<Item Name="Write Settings XML.vi" Type="VI" URL="../Tools/Write Settings XML.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>

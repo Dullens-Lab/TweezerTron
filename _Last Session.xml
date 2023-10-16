@@ -17,11 +17,11 @@
 </I32>
 <I32>
 <Name></Name>
-<Val>-628367360</Val>
+<Val>1416194048</Val>
 </I32>
 <I32>
 <Name></Name>
-<Val>-514909093</Val>
+<Val>-514651067</Val>
 </I32>
 <I32>
 <Name></Name>
@@ -44,20 +44,20 @@
 <NumElts>2</NumElts>
 <U32>
 <Name>Pixels in X</Name>
-<Val>128</Val>
+<Val>512</Val>
 </U32>
 <U32>
 <Name>Pixels in Y</Name>
-<Val>128</Val>
+<Val>512</Val>
 </U32>
 </Cluster>
 <DBL>
 <Name>Field Size</Name>
-<Val>17.53542510121458</Val>
+<Val>200.00000000000000</Val>
 </DBL>
 <U8>
 <Name>Frames</Name>
-<Val>2</Val>
+<Val>4</Val>
 </U8>
 <Boolean>
 <Name>Averaging</Name>
@@ -65,7 +65,7 @@
 </Boolean>
 <DBL>
 <Name>Alignment</Name>
-<Val>1.00000000000000</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <Boolean>
 <Name>Scan Mode</Name>
@@ -76,7 +76,7 @@
 <NumElts>2</NumElts>
 <U8>
 <Name>Gain A</Name>
-<Val>1</Val>
+<Val>5</Val>
 </U8>
 <U8>
 <Name>Gain B</Name>
@@ -121,11 +121,11 @@
 </Boolean>
 <DBL>
 <Name>Field Size in um</Name>
-<Val>23.10000000000000</Val>
+<Val>267.11882000000003</Val>
 </DBL>
 <DBL>
 <Name>MicronsPerPx</Name>
-<Val>0.18046875000000</Val>
+<Val>0.52171644531250</Val>
 </DBL>
 </Cluster>
 <Cluster>
@@ -145,7 +145,7 @@
 </Boolean>
 <Boolean>
 <Name>561 Shutter</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 </Cluster>
 <Cluster>
@@ -162,7 +162,7 @@
 </DBL>
 <String>
 <Name>last command</Name>
-<Val></Val>
+<Val>MOV A-10.00</Val>
 </String>
 </Cluster>
 <DBL>
@@ -178,12 +178,12 @@
 </DBL>
 <Boolean>
 <Name>Open Serial</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 <Refnum>
 <Name>VISA Refnum</Name>
 <RefKind>VISA</RefKind>
-<Val>ASRL5::INSTR</Val>
+<Val></Val>
 </Refnum>
 </Cluster>
 <Cluster>
@@ -284,7 +284,7 @@
 </DBL>
 <DBL>
 <Name>Vortex</Name>
-<Val>18.00000000000000</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Phase</Name>
@@ -292,7 +292,7 @@
 </DBL>
 <DBL>
 <Name>X</Name>
-<Val>0.00000000000000</Val>
+<Val>10.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
@@ -326,7 +326,7 @@
 </Boolean>
 <String>
 <Name>Generate Pattern</Name>
-<Val>Grid 9 x 9</Val>
+<Val></Val>
 </String>
 <Boolean>
 <Name>load spots</Name>
