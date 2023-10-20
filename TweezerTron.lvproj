@@ -258,12 +258,15 @@
 			<Item Name="Calculate Imaging Frame Rate.vi" Type="VI" URL="../Tools/Calculate Imaging Frame Rate.vi"/>
 			<Item Name="Closing Sequence For Export TIFFs.vi" Type="VI" URL="../Review/Closing Sequence For Export TIFFs.vi"/>
 			<Item Name="Compare Old and New LSM.vi" Type="VI" URL="../Tools/Compare Old and New LSM.vi"/>
+			<Item Name="Field of View Conversion.vi" Type="VI" URL="../Calibration/Field of View Conversion.vi"/>
+			<Item Name="Field of View Microns Conversion.vi" Type="VI" URL="../Calibration/Field of View Microns Conversion.vi"/>
 			<Item Name="Get Kernel Time.vi" Type="VI" URL="../Tools/Get Kernel Time.vi"/>
 			<Item Name="Initialise Notifiers and Ques.vi" Type="VI" URL="../Tools/Initialise Notifiers and Ques.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Live Display of Image and Spots.vi" Type="VI" URL="../Tools/Live Display of Image and Spots.vi"/>
+			<Item Name="Load AlignmentDataCourse.vi" Type="VI" URL="../Tools/Load AlignmentDataCourse.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>

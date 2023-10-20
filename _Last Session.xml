@@ -17,11 +17,11 @@
 </I32>
 <I32>
 <Name></Name>
-<Val>1416194048</Val>
+<Val>-386230272</Val>
 </I32>
 <I32>
 <Name></Name>
-<Val>-514651067</Val>
+<Val>-514305401</Val>
 </I32>
 <I32>
 <Name></Name>
@@ -37,27 +37,27 @@
 <Choice>A</Choice>
 <Choice>B</Choice>
 <Choice>AB</Choice>
-<Val>0</Val>
+<Val>2</Val>
 </EL>
 <Cluster>
 <Name>Pixel Count</Name>
 <NumElts>2</NumElts>
 <U32>
 <Name>Pixels in X</Name>
-<Val>512</Val>
+<Val>1024</Val>
 </U32>
 <U32>
 <Name>Pixels in Y</Name>
-<Val>512</Val>
+<Val>1024</Val>
 </U32>
 </Cluster>
 <DBL>
 <Name>Field Size</Name>
-<Val>200.00000000000000</Val>
+<Val>40.00000000000000</Val>
 </DBL>
 <U8>
 <Name>Frames</Name>
-<Val>4</Val>
+<Val>2</Val>
 </U8>
 <Boolean>
 <Name>Averaging</Name>
@@ -65,7 +65,7 @@
 </Boolean>
 <DBL>
 <Name>Alignment</Name>
-<Val>0.00000000000000</Val>
+<Val>24.00000000000000</Val>
 </DBL>
 <Boolean>
 <Name>Scan Mode</Name>
@@ -76,11 +76,11 @@
 <NumElts>2</NumElts>
 <U8>
 <Name>Gain A</Name>
-<Val>5</Val>
+<Val>2</Val>
 </U8>
 <U8>
 <Name>Gain B</Name>
-<Val>1</Val>
+<Val>100</Val>
 </U8>
 </Cluster>
 <Cluster>
@@ -92,7 +92,7 @@
 </Boolean>
 <Boolean>
 <Name>B</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 </Cluster>
 <Cluster>
@@ -121,11 +121,11 @@
 </Boolean>
 <DBL>
 <Name>Field Size in um</Name>
-<Val>267.11882000000003</Val>
+<Val>53.07850000000000</Val>
 </DBL>
 <DBL>
 <Name>MicronsPerPx</Name>
-<Val>0.52171644531250</Val>
+<Val>5.18344726562500E-2</Val>
 </DBL>
 </Cluster>
 <Cluster>
@@ -133,7 +133,7 @@
 <NumElts>4</NumElts>
 <DBL>
 <Name>561</Name>
-<Val>12.50000000000000</Val>
+<Val>13.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>488</Name>
@@ -145,7 +145,7 @@
 </Boolean>
 <Boolean>
 <Name>561 Shutter</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 </Cluster>
 <Cluster>
@@ -158,32 +158,32 @@
 <DBL>
 <Name>PIFOC Position
 (um) [ACT]</Name>
-<Val>0.00000000000000</Val>
+<Val>8.70000000000000E-3</Val>
 </DBL>
 <String>
 <Name>last command</Name>
-<Val>MOV A-10.00</Val>
+<Val></Val>
 </String>
 </Cluster>
 <DBL>
 <Name>Value</Name>
-<Val>0.00000000000000</Val>
+<Val>1.00000000000000</Val>
 </DBL>
 <Cluster>
 <Name>Value</Name>
 <NumElts>3</NumElts>
 <DBL>
 <Name>Manlight Power</Name>
-<Val>0.00000000000000</Val>
+<Val>1.00000000000000</Val>
 </DBL>
 <Boolean>
 <Name>Open Serial</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Refnum>
 <Name>VISA Refnum</Name>
 <RefKind>VISA</RefKind>
-<Val></Val>
+<Val>ASRL5::INSTR</Val>
 </Refnum>
 </Cluster>
 <Cluster>
@@ -191,15 +191,15 @@
 <NumElts>16</NumElts>
 <String>
 <Name>Experiment Type</Name>
-<Val>2D Time Series</Val>
+<Val>Zoom Calibration</Val>
 </String>
 <String>
 <Name>Experiment Name</Name>
-<Val>OCULI test</Val>
+<Val>Zoom Cal 10um with correct Align</Val>
 </String>
 <Path>
 <Name>ExpPath</Name>
-<Val>D:\Data\OCULI Trap Test</Val>
+<Val>D:\Data\Calibration\2023</Val>
 </Path>
 <I32>
 <Name>TSFrames</Name>
@@ -239,12 +239,12 @@
 </Cluster>
 <I32>
 <Name>total images</Name>
-<Val>10000</Val>
+<Val>1</Val>
 </I32>
 <Refnum>
 <Name>tdms ref</Name>
 <RefKind>TDMS File</RefKind>
-<Val>0x11800000</Val>
+<Val>0x42200000</Val>
 </Refnum>
 <I64>
 <Name>frame #</Name>
@@ -252,7 +252,7 @@
 </I64>
 <I32>
 <Name>images per stack</Name>
-<Val>10000</Val>
+<Val>1</Val>
 </I32>
 <I32>
 <Name>total stacks</Name>
@@ -292,7 +292,7 @@
 </DBL>
 <DBL>
 <Name>X</Name>
-<Val>10.00000000000000</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
