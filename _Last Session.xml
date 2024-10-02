@@ -4,7 +4,7 @@
 <LvVariant>
 <Name>Variant</Name>
 <Cluster>
-<Name></Name>
+<Name>cluster</Name>
 <NumElts>8</NumElts>
 <Timestamp>
 <Name>seconds since 1Jan1904</Name>
@@ -17,11 +17,11 @@
 </I32>
 <I32>
 <Name></Name>
-<Val>-386230272</Val>
+<Val>660922368</Val>
 </I32>
 <I32>
 <Name></Name>
-<Val>-514305401</Val>
+<Val>-484236955</Val>
 </I32>
 <I32>
 <Name></Name>
@@ -30,30 +30,30 @@
 </Cluster>
 </Timestamp>
 <Cluster>
-<Name>Value</Name>
+<Name>LSM Settings</Name>
 <NumElts>15</NumElts>
 <EL>
 <Name>Channel Selection</Name>
 <Choice>A</Choice>
 <Choice>B</Choice>
 <Choice>AB</Choice>
-<Val>2</Val>
+<Val>0</Val>
 </EL>
 <Cluster>
 <Name>Pixel Count</Name>
 <NumElts>2</NumElts>
 <U32>
 <Name>Pixels in X</Name>
-<Val>1024</Val>
+<Val>512</Val>
 </U32>
 <U32>
 <Name>Pixels in Y</Name>
-<Val>1024</Val>
+<Val>512</Val>
 </U32>
 </Cluster>
 <DBL>
 <Name>Field Size</Name>
-<Val>40.00000000000000</Val>
+<Val>100.00000000000000</Val>
 </DBL>
 <U8>
 <Name>Frames</Name>
@@ -61,12 +61,20 @@
 </U8>
 <Boolean>
 <Name>Averaging</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
-<DBL>
+<Cluster>
 <Name>Alignment</Name>
-<Val>24.00000000000000</Val>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Course</Name>
+<Val>17.00000000000000</Val>
 </DBL>
+<DBL>
+<Name>Fine</Name>
+<Val>-5.00000000000000</Val>
+</DBL>
+</Cluster>
 <Boolean>
 <Name>Scan Mode</Name>
 <Val>1</Val>
@@ -76,11 +84,11 @@
 <NumElts>2</NumElts>
 <U8>
 <Name>Gain A</Name>
-<Val>2</Val>
+<Val>1</Val>
 </U8>
 <U8>
 <Name>Gain B</Name>
-<Val>100</Val>
+<Val>1</Val>
 </U8>
 </Cluster>
 <Cluster>
@@ -88,11 +96,11 @@
 <NumElts>2</NumElts>
 <Boolean>
 <Name>A</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 <Boolean>
 <Name>B</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 </Cluster>
 <Cluster>
@@ -108,6 +116,14 @@
 </U16>
 </Cluster>
 <DBL>
+<Name>Field Size in um</Name>
+<Val>132.51850000000002</Val>
+</DBL>
+<DBL>
+<Name>MicronsPerPx</Name>
+<Val>0.25882519531250</Val>
+</DBL>
+<DBL>
 <Name>Multi Frame Count</Name>
 <Val>0.00000000000000</Val>
 </DBL>
@@ -119,25 +135,17 @@
 <Name>Real Time Averaging</Name>
 <Val>1</Val>
 </Boolean>
-<DBL>
-<Name>Field Size in um</Name>
-<Val>53.07850000000000</Val>
-</DBL>
-<DBL>
-<Name>MicronsPerPx</Name>
-<Val>5.18344726562500E-2</Val>
-</DBL>
 </Cluster>
 <Cluster>
-<Name>Value</Name>
+<Name>Excitation</Name>
 <NumElts>4</NumElts>
 <DBL>
 <Name>561</Name>
-<Val>13.00000000000000</Val>
+<Val>12.50000000000000</Val>
 </DBL>
 <DBL>
 <Name>488</Name>
-<Val>30.00000000000000</Val>
+<Val>45.00000000000000</Val>
 </DBL>
 <Boolean>
 <Name>Global Shutter</Name>
@@ -149,32 +157,32 @@
 </Boolean>
 </Cluster>
 <Cluster>
-<Name>Value</Name>
+<Name>Piezo</Name>
 <NumElts>3</NumElts>
 <DBL>
 <Name>PIFOC Position (mm) [SET]</Name>
-<Val>0.00000000000000</Val>
+<Val>48.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>PIFOC Position
 (um) [ACT]</Name>
-<Val>8.70000000000000E-3</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <String>
 <Name>last command</Name>
-<Val></Val>
+<Val>MOV A38.00</Val>
 </String>
 </Cluster>
 <DBL>
-<Name>Value</Name>
-<Val>1.00000000000000</Val>
+<Name>Pin Hole</Name>
+<Val>3.00000000000000</Val>
 </DBL>
 <Cluster>
-<Name>Value</Name>
+<Name>Trapping Laser</Name>
 <NumElts>3</NumElts>
 <DBL>
 <Name>Manlight Power</Name>
-<Val>1.00000000000000</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <Boolean>
 <Name>Open Serial</Name>
@@ -187,23 +195,23 @@
 </Refnum>
 </Cluster>
 <Cluster>
-<Name>Value</Name>
+<Name>Experiment Settings</Name>
 <NumElts>16</NumElts>
 <String>
 <Name>Experiment Type</Name>
-<Val>Zoom Calibration</Val>
+<Val>3D Time Series</Val>
 </String>
 <String>
 <Name>Experiment Name</Name>
-<Val>Zoom Cal 10um with correct Align</Val>
+<Val>Trapped Rasp 2024-09-27 3</Val>
 </String>
 <Path>
 <Name>ExpPath</Name>
-<Val>D:\Data\Calibration\2023</Val>
+<Val>D:\Data\Jan</Val>
 </Path>
 <I32>
 <Name>TSFrames</Name>
-<Val>10000</Val>
+<Val>100</Val>
 </I32>
 <I32>
 <Name>TSfps</Name>
@@ -226,25 +234,25 @@
 <NumElts>3</NumElts>
 <DBL>
 <Name>Start</Name>
-<Val>0.00000000000000</Val>
+<Val>44.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Step Size</Name>
-<Val>0.10000000000000</Val>
+<Val>0.30000000000000</Val>
 </DBL>
 <DBL>
 <Name>Finish</Name>
-<Val>1.00000000000000</Val>
+<Val>54.00000000000000</Val>
 </DBL>
 </Cluster>
 <I32>
 <Name>total images</Name>
-<Val>1</Val>
+<Val>33000</Val>
 </I32>
 <Refnum>
 <Name>tdms ref</Name>
 <RefKind>TDMS File</RefKind>
-<Val>0x42200000</Val>
+<Val>0x9BC00000</Val>
 </Refnum>
 <I64>
 <Name>frame #</Name>
@@ -252,11 +260,11 @@
 </I64>
 <I32>
 <Name>images per stack</Name>
-<Val>1</Val>
+<Val>33</Val>
 </I32>
 <I32>
 <Name>total stacks</Name>
-<Val>0</Val>
+<Val>1000</Val>
 </I32>
 <I32>
 <Name>period</Name>
@@ -264,17 +272,45 @@
 </I32>
 <String>
 <Name>PI MVR Increment</Name>
-<Val></Val>
+<Val>MVR A0.30</Val>
 </String>
 </Cluster>
 <LvVariant>
-<Name>Value</Name>
+<Name>Spots</Name>
 <Cluster>
 <Name>Optical Traps</Name>
 <NumElts>8</NumElts>
 <Array>
 <Name>Spot Params</Name>
-<Dimsize>1</Dimsize>
+<Dimsize>2</Dimsize>
+<Cluster>
+<Name>Spot Settings</Name>
+<NumElts>6</NumElts>
+<DBL>
+<Name>Intensity</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Vortex</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Phase</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>X</Name>
+<Val>-21.50000000000001</Val>
+</DBL>
+<DBL>
+<Name>Y</Name>
+<Val>10.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Z</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
 <Cluster>
 <Name>Spot Settings</Name>
 <NumElts>6</NumElts>
@@ -292,11 +328,11 @@
 </DBL>
 <DBL>
 <Name>X</Name>
-<Val>0.00000000000000</Val>
+<Val>-21.49999999999999</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
-<Val>0.00000000000000</Val>
+<Val>-1.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Z</Name>
