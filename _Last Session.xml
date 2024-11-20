@@ -17,11 +17,11 @@
 </I32>
 <I32>
 <Name></Name>
-<Val>-787582976</Val>
+<Val>-50728960</Val>
 </I32>
 <I32>
 <Name></Name>
-<Val>-480090902</Val>
+<Val>-480002557</Val>
 </I32>
 <I32>
 <Name></Name>
@@ -37,27 +37,27 @@
 <Choice>A</Choice>
 <Choice>B</Choice>
 <Choice>AB</Choice>
-<Val>2</Val>
+<Val>1</Val>
 </EL>
 <Cluster>
 <Name>Pixel Count</Name>
 <NumElts>2</NumElts>
 <U32>
 <Name>Pixels in X</Name>
-<Val>64</Val>
+<Val>256</Val>
 </U32>
 <U32>
 <Name>Pixels in Y</Name>
-<Val>128</Val>
+<Val>256</Val>
 </U32>
 </Cluster>
 <DBL>
 <Name>Field Size</Name>
-<Val>6.00000000000000</Val>
+<Val>10.00000000000000</Val>
 </DBL>
 <U8>
 <Name>Frames</Name>
-<Val>2</Val>
+<Val>4</Val>
 </U8>
 <Boolean>
 <Name>Averaging</Name>
@@ -68,11 +68,11 @@
 <NumElts>2</NumElts>
 <DBL>
 <Name>Course</Name>
-<Val>51.00000000000000</Val>
+<Val>50.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Fine</Name>
-<Val>3.00000000000000</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 </Cluster>
 <Boolean>
@@ -84,11 +84,11 @@
 <NumElts>2</NumElts>
 <U8>
 <Name>Gain A</Name>
-<Val>35</Val>
+<Val>1</Val>
 </U8>
 <U8>
 <Name>Gain B</Name>
-<Val>100</Val>
+<Val>60</Val>
 </U8>
 </Cluster>
 <Cluster>
@@ -112,16 +112,16 @@
 </U16>
 <U16>
 <Name>Range B</Name>
-<Val>7</Val>
+<Val>10</Val>
 </U16>
 </Cluster>
 <DBL>
 <Name>Field Size in um</Name>
-<Val>8.06250000000000</Val>
+<Val>13.35850000000000</Val>
 </DBL>
 <DBL>
 <Name>MicronsPerPx</Name>
-<Val>0.12597656250000</Val>
+<Val>5.21816406250000E-2</Val>
 </DBL>
 <DBL>
 <Name>Multi Frame Count</Name>
@@ -141,11 +141,11 @@
 <NumElts>4</NumElts>
 <DBL>
 <Name>561</Name>
-<Val>5.00000000000000</Val>
+<Val>32.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>488</Name>
-<Val>40.00000000000000</Val>
+<Val>45.00000000000000</Val>
 </DBL>
 <Boolean>
 <Name>Global Shutter</Name>
@@ -161,7 +161,7 @@
 <NumElts>3</NumElts>
 <DBL>
 <Name>PIFOC Position (mm) [SET]</Name>
-<Val>55.00000000000000</Val>
+<Val>58.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>PIFOC Position
@@ -170,7 +170,7 @@
 </DBL>
 <String>
 <Name>last command</Name>
-<Val>MOV A45.00</Val>
+<Val>MOV A48.00</Val>
 </String>
 </Cluster>
 <DBL>
@@ -182,7 +182,7 @@
 <NumElts>3</NumElts>
 <DBL>
 <Name>Manlight Power</Name>
-<Val>1.00000000000000</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <Boolean>
 <Name>Open Serial</Name>
@@ -203,15 +203,15 @@
 </String>
 <String>
 <Name>Experiment Name</Name>
-<Val>Trap Stiff Calibration</Val>
+<Val>BDP OCULI 2024-11-20</Val>
 </String>
 <Path>
 <Name>ExpPath</Name>
-<Val>D:\Data\Demi\2024 11 19\0.5</Val>
+<Val>D:\Data\Jan</Val>
 </Path>
 <I32>
 <Name>TSFrames</Name>
-<Val>100</Val>
+<Val>10000</Val>
 </I32>
 <I32>
 <Name>TSfps</Name>
@@ -242,17 +242,17 @@
 </DBL>
 <DBL>
 <Name>Finish</Name>
-<Val>64.00000000000000</Val>
+<Val>62.00000000000000</Val>
 </DBL>
 </Cluster>
 <I32>
 <Name>total images</Name>
-<Val>70000</Val>
+<Val>60000</Val>
 </I32>
 <Refnum>
 <Name>tdms ref</Name>
 <RefKind>TDMS File</RefKind>
-<Val>0x13B00000</Val>
+<Val>0xFC600000</Val>
 </Refnum>
 <I64>
 <Name>frame #</Name>
@@ -260,7 +260,7 @@
 </I64>
 <I32>
 <Name>images per stack</Name>
-<Val>70</Val>
+<Val>60</Val>
 </I32>
 <I32>
 <Name>total stacks</Name>
@@ -282,7 +282,7 @@
 <NumElts>8</NumElts>
 <Array>
 <Name>Spot Params</Name>
-<Dimsize>3</Dimsize>
+<Dimsize>2</Dimsize>
 <Cluster>
 <Name>Spot Settings</Name>
 <NumElts>6</NumElts>
@@ -300,11 +300,11 @@
 </DBL>
 <DBL>
 <Name>X</Name>
-<Val>-28.00000000000000</Val>
+<Val>4.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
-<Val>-1.50000000000000</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Z</Name>
@@ -316,7 +316,7 @@
 <NumElts>6</NumElts>
 <DBL>
 <Name>Intensity</Name>
-<Val>1.00000000000000</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Vortex</Name>
@@ -328,39 +328,11 @@
 </DBL>
 <DBL>
 <Name>X</Name>
-<Val>-20.00000000000000</Val>
+<Val>-7.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
-<Val>-1.50000000000000</Val>
-</DBL>
-<DBL>
-<Name>Z</Name>
-<Val>0.00000000000000</Val>
-</DBL>
-</Cluster>
-<Cluster>
-<Name>Spot Settings</Name>
-<NumElts>6</NumElts>
-<DBL>
-<Name>Intensity</Name>
-<Val>2.50000000000000</Val>
-</DBL>
-<DBL>
-<Name>Vortex</Name>
-<Val>60.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>Phase</Name>
-<Val>0.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>X</Name>
-<Val>-25.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>Y</Name>
-<Val>-1.00000000000000</Val>
+<Val>6.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Z</Name>
