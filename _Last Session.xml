@@ -17,11 +17,11 @@
 </I32>
 <I32>
 <Name></Name>
-<Val>-50728960</Val>
+<Val>162404352</Val>
 </I32>
 <I32>
 <Name></Name>
-<Val>-480002557</Val>
+<Val>-477586066</Val>
 </I32>
 <I32>
 <Name></Name>
@@ -37,18 +37,18 @@
 <Choice>A</Choice>
 <Choice>B</Choice>
 <Choice>AB</Choice>
-<Val>1</Val>
+<Val>2</Val>
 </EL>
 <Cluster>
 <Name>Pixel Count</Name>
 <NumElts>2</NumElts>
 <U32>
 <Name>Pixels in X</Name>
-<Val>256</Val>
+<Val>128</Val>
 </U32>
 <U32>
 <Name>Pixels in Y</Name>
-<Val>256</Val>
+<Val>128</Val>
 </U32>
 </Cluster>
 <DBL>
@@ -57,7 +57,7 @@
 </DBL>
 <U8>
 <Name>Frames</Name>
-<Val>4</Val>
+<Val>2</Val>
 </U8>
 <Boolean>
 <Name>Averaging</Name>
@@ -84,11 +84,11 @@
 <NumElts>2</NumElts>
 <U8>
 <Name>Gain A</Name>
-<Val>1</Val>
+<Val>2</Val>
 </U8>
 <U8>
 <Name>Gain B</Name>
-<Val>60</Val>
+<Val>100</Val>
 </U8>
 </Cluster>
 <Cluster>
@@ -121,7 +121,7 @@
 </DBL>
 <DBL>
 <Name>MicronsPerPx</Name>
-<Val>5.21816406250000E-2</Val>
+<Val>0.10436328125000</Val>
 </DBL>
 <DBL>
 <Name>Multi Frame Count</Name>
@@ -141,7 +141,7 @@
 <NumElts>4</NumElts>
 <DBL>
 <Name>561</Name>
-<Val>32.00000000000000</Val>
+<Val>14.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>488</Name>
@@ -161,7 +161,7 @@
 <NumElts>3</NumElts>
 <DBL>
 <Name>PIFOC Position (mm) [SET]</Name>
-<Val>58.00000000000000</Val>
+<Val>53.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>PIFOC Position
@@ -170,7 +170,7 @@
 </DBL>
 <String>
 <Name>last command</Name>
-<Val>MOV A48.00</Val>
+<Val>MOV A43.00</Val>
 </String>
 </Cluster>
 <DBL>
@@ -182,7 +182,7 @@
 <NumElts>3</NumElts>
 <DBL>
 <Name>Manlight Power</Name>
-<Val>0.00000000000000</Val>
+<Val>0.50000000000000</Val>
 </DBL>
 <Boolean>
 <Name>Open Serial</Name>
@@ -203,7 +203,7 @@
 </String>
 <String>
 <Name>Experiment Name</Name>
-<Val>BDP OCULI 2024-11-20</Val>
+<Val>Pair 2.4 sep  OCULI 2 2024-12-17-17-02</Val>
 </String>
 <Path>
 <Name>ExpPath</Name>
@@ -219,11 +219,11 @@
 </I32>
 <I32>
 <Name>ZTSFrames</Name>
-<Val>1000</Val>
+<Val>3600</Val>
 </I32>
 <I32>
 <Name>ZTSdt</Name>
-<Val>1</Val>
+<Val>2000</Val>
 </I32>
 <Boolean>
 <Name>Streaming</Name>
@@ -234,25 +234,25 @@
 <NumElts>3</NumElts>
 <DBL>
 <Name>Start</Name>
-<Val>50.00000000000000</Val>
+<Val>38.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Step Size</Name>
-<Val>0.20000000000000</Val>
+<Val>0.30000000000000</Val>
 </DBL>
 <DBL>
 <Name>Finish</Name>
-<Val>62.00000000000000</Val>
+<Val>70.00000000000000</Val>
 </DBL>
 </Cluster>
 <I32>
 <Name>total images</Name>
-<Val>60000</Val>
+<Val>385200</Val>
 </I32>
 <Refnum>
 <Name>tdms ref</Name>
 <RefKind>TDMS File</RefKind>
-<Val>0xFC600000</Val>
+<Val>0xAFE00000</Val>
 </Refnum>
 <I64>
 <Name>frame #</Name>
@@ -260,11 +260,11 @@
 </I64>
 <I32>
 <Name>images per stack</Name>
-<Val>60</Val>
+<Val>107</Val>
 </I32>
 <I32>
 <Name>total stacks</Name>
-<Val>1000</Val>
+<Val>3600</Val>
 </I32>
 <I32>
 <Name>period</Name>
@@ -272,7 +272,7 @@
 </I32>
 <String>
 <Name>PI MVR Increment</Name>
-<Val>MVR A0.20</Val>
+<Val>MVR A0.30</Val>
 </String>
 </Cluster>
 <LvVariant>
@@ -282,7 +282,7 @@
 <NumElts>8</NumElts>
 <Array>
 <Name>Spot Params</Name>
-<Dimsize>2</Dimsize>
+<Dimsize>3</Dimsize>
 <Cluster>
 <Name>Spot Settings</Name>
 <NumElts>6</NumElts>
@@ -300,11 +300,39 @@
 </DBL>
 <DBL>
 <Name>X</Name>
-<Val>4.00000000000000</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
+<Val>10.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Z</Name>
 <Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Spot Settings</Name>
+<NumElts>6</NumElts>
+<DBL>
+<Name>Intensity</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Vortex</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Phase</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>X</Name>
+<Val>2.16000000000001</Val>
+</DBL>
+<DBL>
+<Name>Y</Name>
+<Val>10.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Z</Name>
@@ -328,11 +356,11 @@
 </DBL>
 <DBL>
 <Name>X</Name>
-<Val>-7.00000000000000</Val>
+<Val>3.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
-<Val>6.00000000000000</Val>
+<Val>10.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Z</Name>
