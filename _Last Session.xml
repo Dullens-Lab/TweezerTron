@@ -17,11 +17,11 @@
 </I32>
 <I32>
 <Name></Name>
-<Val>-715112448</Val>
+<Val>-2063745024</Val>
 </I32>
 <I32>
 <Name></Name>
-<Val>-473955592</Val>
+<Val>-472673253</Val>
 </I32>
 <I32>
 <Name></Name>
@@ -37,23 +37,23 @@
 <Choice>A</Choice>
 <Choice>B</Choice>
 <Choice>AB</Choice>
-<Val>2</Val>
+<Val>1</Val>
 </EL>
 <Cluster>
 <Name>Pixel Count</Name>
 <NumElts>2</NumElts>
 <U32>
 <Name>Pixels in X</Name>
-<Val>512</Val>
+<Val>256</Val>
 </U32>
 <U32>
 <Name>Pixels in Y</Name>
-<Val>512</Val>
+<Val>256</Val>
 </U32>
 </Cluster>
 <DBL>
 <Name>Field Size</Name>
-<Val>40.00000000000000</Val>
+<Val>10.00000000000000</Val>
 </DBL>
 <U8>
 <Name>Frames</Name>
@@ -68,11 +68,11 @@
 <NumElts>2</NumElts>
 <DBL>
 <Name>Course</Name>
-<Val>26.00000000000000</Val>
+<Val>50.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Fine</Name>
-<Val>-5.00000000000000</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 </Cluster>
 <Boolean>
@@ -84,11 +84,11 @@
 <NumElts>2</NumElts>
 <U8>
 <Name>Gain A</Name>
-<Val>7</Val>
+<Val>1</Val>
 </U8>
 <U8>
 <Name>Gain B</Name>
-<Val>30</Val>
+<Val>60</Val>
 </U8>
 </Cluster>
 <Cluster>
@@ -117,11 +117,11 @@
 </Cluster>
 <DBL>
 <Name>Field Size in um</Name>
-<Val>53.07850000000000</Val>
+<Val>13.35850000000000</Val>
 </DBL>
 <DBL>
 <Name>MicronsPerPx</Name>
-<Val>0.10366894531250</Val>
+<Val>5.21816406250000E-2</Val>
 </DBL>
 <DBL>
 <Name>Multi Frame Count</Name>
@@ -149,7 +149,7 @@
 </DBL>
 <Boolean>
 <Name>Global Shutter</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 <Boolean>
 <Name>561 Shutter</Name>
@@ -161,7 +161,7 @@
 <NumElts>3</NumElts>
 <DBL>
 <Name>PIFOC Position (mm) [SET]</Name>
-<Val>60.00000000000000</Val>
+<Val>57.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>PIFOC Position
@@ -170,7 +170,7 @@
 </DBL>
 <String>
 <Name>last command</Name>
-<Val>MOV A50.00</Val>
+<Val>MOV A47.00</Val>
 </String>
 </Cluster>
 <DBL>
